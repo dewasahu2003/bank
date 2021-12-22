@@ -52,6 +52,11 @@ footer
 form{
     padding-top:25px;    
 }
+@media screen and (min-width:300px) and (max-width:700px)
+{
+   img{
+       width:100px;
+      }
 .menu
 {
    
@@ -61,7 +66,7 @@ form{
     padding-left: 10px;
     top:10%;
    
-    width: 40px;
+    width: 30px;
    
     border-top-right-radius: 12px ;
     border-bottom-right-radius: 12px;
@@ -79,6 +84,36 @@ form{
     cursor: pointer;
     background-color:rgb(253, 119, 102);
 }
+
+}
+@media screen and (min-width:700px) and (max-width:1500px) 
+{
+    .menu{
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    top:10%;
+   
+    width: 40px;
+   
+    border-top-right-radius: 12px ;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px ;
+    border-bottom-left-radius: 12px;
+    overflow: hidden;
+   
+    box-shadow: 0px 0px 5px rgb(253, 119, 102);
+    transition: 0.4s cubic-bezier(0.5, 0.55, 0.2, 1);
+    
+}
+.menu:hover{
+    width: 350px;
+    cursor: pointer;
+    background-color:rgb(253, 119, 102);
+}
+}
+
+
 .menu .fa
 {
     font-size: 35px;
