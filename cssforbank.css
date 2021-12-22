@@ -8,6 +8,14 @@
 .centertext{
     text-align: center;
 }
+img{
+
+    width: 400px;
+    margin-left:0%;
+    padding-right:30px;
+
+
+}
 
 ul#horizontal li
 {
@@ -18,10 +26,6 @@ ul#horizontal li
 {
     display: table;
     margin:auto;   
-}
-body
-{    
-    background:white;
 }
 
 footer
@@ -54,18 +58,19 @@ form{
     
     padding: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
     top:10%;
-    left: 0px;
+   
     width: 40px;
-    height:5.5vh;
-    border-top-right-radius: 10px ;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    border-bottom-left-radius: 10px;
+   
+    border-top-right-radius: 12px ;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px ;
+    border-bottom-left-radius: 12px;
     overflow: hidden;
-    white-space: nowrap;
-    box-shadow: 0px 0px 12px rgb(253, 195, 186);
-    transition: 0.3s ease;
+   
+    box-shadow: 0px 0px 5px rgb(253, 119, 102);
+    transition: 0.4s cubic-bezier(0.5, 0.55, 0.2, 1);
     
    
 }
